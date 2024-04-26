@@ -1,5 +1,6 @@
-var arr2 = arr1.reverse();
-[foo, bar] = [bar, foo];
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-const lastElement = arr => arr[arr.length - 1];
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const maxNumber = arr => Math.max(...arr);
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+console.log(+"1" +  "1" + "2");
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const isEmptyArray = arr => !arr.length;
