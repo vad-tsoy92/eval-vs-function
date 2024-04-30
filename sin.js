@@ -1,3 +1,1 @@
-const appName = getAppName(channel);
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-const minNumber = arr => Math.min(...arr);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
