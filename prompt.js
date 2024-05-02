@@ -1,2 +1,3 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const isEven = (num) => num % 2 === 0;
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+var pattern = {};
+console.log( "A" - "B" + 2);
