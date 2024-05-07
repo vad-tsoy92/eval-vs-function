@@ -1,2 +1,2 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const appName = getAppName(channel);
+console.log(false == '0');
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
