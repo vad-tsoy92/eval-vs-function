@@ -1,1 +1,3 @@
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+console.log( "A" - "B" + "2");
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const toggleBool = () => (bool = !bool);
