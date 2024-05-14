@@ -1,1 +1,1 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const repositoryRootPath = path.resolve(__dirname, '..');
