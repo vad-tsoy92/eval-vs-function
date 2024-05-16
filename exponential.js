@@ -1,3 +1,2 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const removeDuplicates = (arr) => [...new Set(arr)];
