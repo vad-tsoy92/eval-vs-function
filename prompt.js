@@ -1,3 +1,3 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const channelName = getChannelName(channel);
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const randomString = () => Math.random().toString(36).slice(2);
