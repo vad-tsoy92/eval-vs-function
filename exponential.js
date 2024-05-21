@@ -1,2 +1,3 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const removeDuplicates = (arr) => [...new Set(arr)];
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
