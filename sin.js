@@ -1,2 +1,3 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const isEven = (num) => num % 2 === 0;
+const isTabInView = () => !document.hidden;
