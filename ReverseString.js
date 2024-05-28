@@ -1,2 +1,1 @@
-console.log(false === '0');
-const toggleBool = () => (bool = !bool);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
