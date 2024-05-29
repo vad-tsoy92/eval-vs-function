@@ -1,3 +1,2 @@
-const merge = (a, b) => a.concat(b);
-console.log(+"1" +  "1" + "2");
-const channel = getChannel(computedAppVersion);
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const results = await Promise.all(resultingPromises);
