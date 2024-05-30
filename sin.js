@@ -1,3 +1,3 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const isEven = (num) => num % 2 === 0;
-const isTabInView = () => !document.hidden;
+const repositoryRootPath = path.resolve(__dirname, '..');
+const minNumber = arr => Math.min(...arr);
+console.log( "A" - "B" + 2);
