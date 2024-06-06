@@ -1,3 +1,2 @@
-const goToTop = () => window.scrollTo(0, 0);
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const channelName = getChannelName(channel);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+var arr3 = "jones".split('');
