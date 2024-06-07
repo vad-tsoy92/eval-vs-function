@@ -1,2 +1,1 @@
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-const channel = getChannel(computedAppVersion);
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
