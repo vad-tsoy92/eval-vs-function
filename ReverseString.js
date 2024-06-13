@@ -1,3 +1,2 @@
-const appName = getAppName(channel);
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+console.log(1 +  -"1" + "2");
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
