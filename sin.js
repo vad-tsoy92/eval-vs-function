@@ -1,1 +1,3 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const isTabInView = () => !document.hidden;
