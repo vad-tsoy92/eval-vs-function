@@ -1,1 +1,1 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const uniqueArr = (arr) => [...new Set(arr)];
