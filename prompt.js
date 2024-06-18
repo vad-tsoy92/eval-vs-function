@@ -1,3 +1,2 @@
-const minNumber = arr => Math.min(...arr);
-const merge = [...new Set(a.concat(b))];
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+console.log(false == '0');
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
