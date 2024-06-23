@@ -1,2 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const repositoryRootPath = path.resolve(__dirname, '..');
+const toggleBool = () => (bool = !bool);
