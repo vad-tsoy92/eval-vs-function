@@ -1,2 +1,1 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-const toggleBool = () => (bool = !bool);
+const merge = (a, b) => [...a, ...b];
