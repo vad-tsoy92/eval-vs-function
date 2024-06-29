@@ -1,2 +1,2 @@
-console.log(false == '0');
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const value = ( 5 < 7 ) ? "True" : "False" ;
+var c = new Counter(); c.add(); c.add(); c.add();
