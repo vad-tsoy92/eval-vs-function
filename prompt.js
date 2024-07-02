@@ -1,3 +1,3 @@
-const merge = (a, b) => [...a, ...b];
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-[foo, bar] = [bar, foo];
+console.log(false == '0');
+const goToTop = () => window.scrollTo(0, 0);
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
