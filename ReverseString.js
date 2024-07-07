@@ -1,1 +1,1 @@
-console.log(+"1" +  "1" + "2");
+const executableName = getExecutableName(channel, appName);
