@@ -1,1 +1,1 @@
-const executableName = getExecutableName(channel, appName);
+console.log(typeof typeof 1);
