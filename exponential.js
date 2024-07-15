@@ -1,3 +1,1 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const results = await Promise.all(resultingPromises);
-const appName = getAppName(channel);
+const resultingPromises = urls.map((url) => makHttpRequest(url));
