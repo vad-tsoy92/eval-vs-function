@@ -1,3 +1,2 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const isTabInView = () => !document.hidden;
-console.log(1 +  "2" + "2");
+const lastElement = arr => arr[arr.length - 1];
+const isWeekday = (date) => date.getDay() % 6 !== 0;
