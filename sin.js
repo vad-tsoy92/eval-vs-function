@@ -1,3 +1,2 @@
-const arrayContains = (arr, element) => arr.includes(element);
-const isTabInView = () => !document.hidden;
-const merge = [...new Set(a.concat(b))];
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+var arr1 = "john".split('');
