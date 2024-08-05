@@ -1,2 +1,2 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const merge = [...new Set(a.concat(b))];
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+console.log(+"1" +  "1" + "2");
