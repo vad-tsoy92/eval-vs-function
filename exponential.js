@@ -1,3 +1,2 @@
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-[foo, bar] = [bar, foo];
-const goToTop = () => window.scrollTo(0, 0);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const channelName = getChannelName(channel);
