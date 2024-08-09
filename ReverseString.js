@@ -1,3 +1,2 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const randomString = () => Math.random().toString(36).slice(2);
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const merge = [...new Set([...a, ...b])];
+var c = new Counter(); c.add(); c.add(); c.add();
